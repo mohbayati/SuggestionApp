@@ -14,5 +14,6 @@ public static class RegisterServices
       builder.Services.AddScoped<ICategoryData, MongoCategoryData>();
       builder.Services.AddScoped<IUserData, MongoUserData>();
       builder.Services.AddScoped<ISuggestionData,MongoSuggestionData>();
-   }
+      builder.Services.AddScoped<ISuggestionData,MongoSuggestionData>();
+    }
 }
